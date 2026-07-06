@@ -13,7 +13,7 @@ const Landing = () => {
   return (
     <>
         <div className='overflow-hidden'>
-            <section className='relative bg-[#020204] h-screen overflow-hidden '>
+            <section className='relative bg-[#020204] overflow-hidden'>
                 <img src={bg_main} className='h-screen absolute right-0 z-10 object-cover'/>
                 <Header />
 
