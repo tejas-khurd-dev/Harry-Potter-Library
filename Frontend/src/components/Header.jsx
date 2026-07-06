@@ -5,7 +5,7 @@ import {ShieldUser, SquareArrowRightExit} from "lucide-react"
 const HEADER = () => {
   return (
     <>
-        <div className='flex justify-between w-screen h-18 border-b border-b-[#131416] pb-2 font-heading bg-black/70 fixed z-10'>
+        <div className='flex justify-between w-screen h-18 border-b border-b-[#131416] pb-2 font-heading bg-gradient-to-r from-[#010000] via-[#010000] to-black/50 fixed z-100'>
             <div className='flex items-center justify-center'>
                 <img src={logo} className='w-20'/> 
                 <div>
