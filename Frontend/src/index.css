@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Cinzel", serif;
+  --font-body: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+} 
