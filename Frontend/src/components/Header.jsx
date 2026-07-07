@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from "../assets/images/logo.png"
 import {ShieldUser, SquareArrowRightExit} from "lucide-react"
+import { Link } from 'react-router-dom'
+import logo from "../assets/images/logo.png"
 
 const HEADER = () => {
   return (
@@ -24,13 +25,14 @@ const HEADER = () => {
             </nav>
 
             <div className='pt-3 flex justify-between gap-5 mx-4'>
-                <button className='px-4 border-2 border-[#372916] rounded-lg hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] transition-all ease-in-out duration-300'>
-                    <h4 className='text-[#E49F43] flex justify-between items-center gap-2 tracking-tight '><SquareArrowRightExit /> Login</h4>
-                </button>
 
-                <button className='px-3 border-2 border-t-3 border-[#372916] rounded-lg bg-[#2A090F] hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] transition-all ease-in-out duration-300'>
+                <Link to='/login' className='px-4 py-3 border-2 border-[#372916] rounded-lg hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] transition-all ease-in-out duration-300'>
+                    <h4 className='text-[#E49F43] flex justify-between items-center gap-2 tracking-tight '><SquareArrowRightExit /> Login</h4>
+                </Link>
+
+                <Link to='/login' className='px-3 py-3 border-2 border-t-3 border-[#372916] rounded-lg bg-[#2A090F] hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] transition-all ease-in-out duration-300'>
                     <h4 className='text-white flex justify-between items-center gap-2 tracking-tight'><ShieldUser className='text-[#E49F43]' /> Admin Login</h4>
-                </button>
+                </Link>
             </div>
         </div>
     </>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Sparkles, WandSparkles, PencilSparkles, BookOpen, Users, Wand, BadgeIndianRupee, Star } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import bg_main from '../assets/images/landing_page_main.png'
@@ -41,10 +42,10 @@ const Landing = () => {
 
 
                     <div className='font-body mt-6 flex flex-col gap-4 sm:flex-row sm:justify-center md:mt-10 md:justify-start md:gap-6'>
-                        <button className='flex w-full items-center justify-center gap-3 rounded-lg border-2 border-[#372916] bg-[#2A090F] px-6 py-4 text-[#E49F43] transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] sm:w-auto md:gap-4 md:px-12'>
+                        <Link to='/login' className='flex w-full items-center justify-center gap-3 rounded-lg border-2 border-[#372916] bg-[#2A090F] px-6 py-4 text-[#E49F43] transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] sm:w-auto md:gap-4 md:px-12'>
                             <WandSparkles/> 
                             <span className='text-lg text-amber-50 md:text-xl'>Get Started</span>
-                        </button>
+                        </Link>
 
                         <button className='flex w-full items-center justify-center gap-3 rounded-lg border-2 border-[#372916] px-6 py-4 text-[#E49F43] transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] sm:w-auto md:gap-4 md:px-7'>
                             <PencilSparkles/> 
