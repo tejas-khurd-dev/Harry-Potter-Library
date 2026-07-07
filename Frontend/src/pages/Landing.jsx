@@ -19,7 +19,7 @@ const Landing = () => {
                 <Header />
 
                 <div className='relative z-20 mx-auto w-full max-w-[92rem] px-5 pt-30 md:ml-15 md:mt-28 md:px-0 md:pt-0'>
-                    <h5 className='flex flex-wrap items-center justify-center gap-2 text-center font-heading text-base text-[#E49F43] sm:text-lg md:justify-start md:text-xl'>
+                    <h5 className='flex flex-wrap items-center justify-center gap-2 text-center font-heading text-sm text-[#E49F43] sm:text-base md:justify-start md:text-lg'>
                         <Sparkles size={12} />
                         <span className='h-[1px] w-4 md:w-12 bg-gradient-to-r from-transparent via-[#E49F43] to-[#E49F43] sm:w-24 md:w-32'></span>
                         Welcome to SpellShelf 
@@ -27,12 +27,12 @@ const Landing = () => {
                         <Sparkles size={12} /> 
                     </h5>
 
-                    <h1 className='mt-6 text-center font-heading text-4xl leading-tight tracking-tighter text-[#F5E8D0] sm:text-5xl md:text-left md:text-6xl'>
+                    <h1 className='mt-6 text-center font-heading text-3xl leading-tight tracking-tighter text-[#F5E8D0] sm:text-4xl md:text-left md:text-5xl'>
                         Manage Your Library 
                         <span className='block text-[#E49F43]'>Like Magic</span>
                     </h1>
 
-                    <p className='font-body mx-auto mt-6 max-w-xl text-center text-xl leading-7 tracking-wider text-[#F5E8D0] md:mx-0 md:mt-10 md:text-left md:text-2xl md:leading-8'>
+                    <p className='font-body mx-auto mt-6 max-w-xl text-center text-lg leading-7 tracking-wider text-[#F5E8D0] md:mx-0 md:mt-10 md:text-left md:text-xl md:leading-8'>
                         A powerful and intuitive Library Management System 
                         <span className='md:block'>to manage books,
                         members, and transactions </span> 
@@ -40,22 +40,22 @@ const Landing = () => {
                     </p>
 
 
-                    <div className='font-body mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center md:mt-18 md:justify-start md:gap-6'>
+                    <div className='font-body mt-6 flex flex-col gap-4 sm:flex-row sm:justify-center md:mt-10 md:justify-start md:gap-6'>
                         <button className='flex w-full items-center justify-center gap-3 rounded-lg border-2 border-[#372916] bg-[#2A090F] px-6 py-4 text-[#E49F43] transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] sm:w-auto md:gap-4 md:px-12'>
                             <WandSparkles/> 
-                            <span className='text-xl text-amber-50 md:text-2xl'>Get Started</span>
+                            <span className='text-lg text-amber-50 md:text-xl'>Get Started</span>
                         </button>
 
                         <button className='flex w-full items-center justify-center gap-3 rounded-lg border-2 border-[#372916] px-6 py-4 text-[#E49F43] transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] sm:w-auto md:gap-4 md:px-7'>
                             <PencilSparkles/> 
-                            <span className='text-xl text-amber-50 md:text-2xl'>Explore Features</span>
+                            <span className='text-lg text-amber-50 md:text-xl'>Explore Features</span>
                         </button>
                     </div>
                     
                     <div className='font-body mt-10 flex w-full max-w-xl flex-wrap justify-center gap-5 rounded-lg border-2 border-[#472f0f] px-5 py-6 text-[#E49F43] transition-all duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(228,159,67,0.35)] md:mt-12 md:w-fit md:max-w-none md:justify-start md:gap-15 md:px-12 md:py-8'>
                         <div className='flex min-w-32 items-center gap-3'>
                             <BookOpen className='size-8 md:size-10'/>
-                            <p className='text-2xl text-amber-50 md:text-4xl'>
+                            <p className='text-xl text-amber-50 md:text-3xl'>
                                 10,000+
                                 <span className='block'>Books</span>
                             </p>
@@ -63,7 +63,7 @@ const Landing = () => {
 
                         <div className='flex min-w-32 items-center gap-3'>
                             <Users className='size-8 md:size-10'/>
-                            <p className='text-2xl text-amber-50 md:text-4xl'>
+                            <p className='text-xl text-amber-50 md:text-3xl'>
                                 10,000+
                                 <span className='block'>Books</span>
                             </p>
@@ -71,7 +71,7 @@ const Landing = () => {
 
                         <div className='flex min-w-32 items-center gap-3'>
                             <Wand className='size-8 md:size-10' />
-                            <p className='text-2xl text-amber-50 md:text-4xl'>
+                            <p className='text-xl text-amber-50 md:text-3xl'>
                                 10,000+
                                 <span className='block'>Books</span>
                             </p>
@@ -79,7 +79,7 @@ const Landing = () => {
 
                         <div className='flex min-w-32 items-center gap-3'>
                             <BadgeIndianRupee className='size-8 md:size-10'/>
-                            <p className='text-2xl text-amber-50 md:text-4xl'>
+                            <p className='text-xl text-amber-50 md:text-3xl'>
                                 10,000+
                                 <span className='block'>Books</span>
                             </p>
