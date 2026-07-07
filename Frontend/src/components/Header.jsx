@@ -24,7 +24,7 @@ const HEADER = () => {
                 </ul>
             </nav>
 
-            <div className='pt-3 flex justify-between gap-5 mx-4'>
+            <div className='pt-3 flex justify-between gap-5 mx-8'>
 
                 <Link to='/login' className='px-4 py-3 border-2 border-[#372916] rounded-lg hover:-translate-y-1 hover:scale-102 hover:border-[#9b6724] transition-all ease-in-out duration-300'>
                     <h4 className='text-[#E49F43] flex justify-between items-center gap-2 tracking-tight '><SquareArrowRightExit /> Login</h4>
